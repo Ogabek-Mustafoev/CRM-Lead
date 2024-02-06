@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dragDropList {
+  max-height: calc(100vh - 230px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.truncateText {
+  @apply line-clamp-1 break-all
+}
+
+.ant-menu {
+  height: calc(100% - 57px) !important;
+  overflow-y: auto !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+.ant-btn-primary {
+  background: #1577ff !important;
+}
+
+.ant-btn-primary:hover {
+  background: #4196ff !important;
+}
+
+.ant-table-thead:not(.not) .ant-table-cell:not(.not) {
+  background-color: rgb(235, 235, 235) !important;
+}
+
+.base_layout_aside {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.ant-table-wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+.ant-layout-content {
+  margin: 0 !important;
+}
